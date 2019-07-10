@@ -13,11 +13,10 @@
 .card > .img-container {
   height: 100%;
   overflow: hidden;
-  /* text-align: center; */
-  background:#6CADDC;
+  text-align: center;
 }
 .card > .img-container > img {
-  width: 60%
+  width: 90%
 }
 
 .card > .content {
@@ -25,25 +24,3 @@
   padding-right: 1rem;
   font-size: 15px;
 }
-
-/* 
-.card > .content > ul {
-  list-style-type: none;
-}
-
-.card > .content > ul > li {
-  margin-top: 18px;
-} */
-/* 
-.card > .remove {
-  color: #ff1744;
-  font-size: 48px;
-  position: absolute;
-  top: -20px;
-  right: 5px;
-  cursor: pointer;
-}
-
-.card > .remove:hover {
-  color: #d50000;
-} */

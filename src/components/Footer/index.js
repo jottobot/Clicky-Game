@@ -1,10 +1,11 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+import './style.css';
 
-function Footer() {
+// presentation - function - stateless WE CAN'T USE "THIS"
+const Footer = props => {
   return (
     <footer className="footer">
-      <span>Clicky: 2019</span>
+      <span>{props.spanData}</span>
     </footer>
   );
 }

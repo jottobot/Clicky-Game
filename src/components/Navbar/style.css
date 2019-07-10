@@ -1,20 +1,13 @@
 .navbar {
-  /* text-align: center; */
   margin: 0 auto;
-  background-color: rgb(218, 165, 22);
+  background-color: rgb(226, 177, 70);
   width: 100%;
   font-size: 1rem;
   margin-bottom: 0;
 }
 
-a {
-  color: black;
-}
-
-.title {
-  float: left;
-}
-
 .scores {
   float: right;
+  font-size: 20px;
 }
+

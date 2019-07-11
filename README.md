@@ -18,3 +18,4 @@ When an image is clicked, the images rendered to the page are shuffled in a rand
 * Run "npm start" to run game on local server
 
 ## Deployed
+https://jottobot.github.io/Clicky-Game/

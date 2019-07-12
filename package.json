@@ -2,7 +2,7 @@
   "name": "clickygame",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jottobot.github.io/Clicky-game",
+  "homepage": "https://jottobot.github.io/Clicky-Game",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",

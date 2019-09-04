@@ -14,9 +14,16 @@
   height: 100%;
   overflow: hidden;
   text-align: center;
+  transition: filter .3s ease-in-out;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); /* FF 35+ */
 }
 .card > .img-container > img {
   width: 90%
+}
+.card >.img-container:hover {
+  -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
 }
 
 .card > .content {

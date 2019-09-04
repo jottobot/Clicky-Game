@@ -10,6 +10,12 @@ The application renders images to the screen. The user's score is incremented wh
 
 When an image is clicked, the images rendered to the page are shuffled in a random order making the user use their memory to ensure an incorrect guess isn't made.
 
+## Techonologies 
+* React JS
+* Bootstrap
+* CSS
+* Node JS
+
 ## To run localy
 
 * Git clone the repository to local computer

@@ -60,12 +60,12 @@ class App extends Component {
     return (
       <Fragment>
           <Navbar title={this.state.title} score={this.state.score} highscore={this.state.highscore} /> 
-          <Hero backgroundImage=" https://img.freepik.com/free-vector/minimal-triangle-pattern-design-pastel-colors_1017-14885.jpg?size=338&ext=jpg">
-            <h1>Clicky Game</h1>
+          <Hero>
+            <h1 className="gametitle">Candy Memory Game</h1>
             <h2>Click a candy ONCE to earn points...</h2>
             <h2>if you click the same candy more than once, game over.</h2>
           </Hero>
-          <Wrapper>
+          <Wrapper backgroundImage=" https://images.unsplash.com/photo-1499195333224-3ce974eecb47?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60">
           {/* higher order function - takes a function as an argument or returns a function */}
           {this.state.friends.map(friend => (
             <PicturesCard

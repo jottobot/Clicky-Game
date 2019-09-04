@@ -1,13 +1,47 @@
 .navbar {
   margin: 0 auto;
   background-color: pink;
-  width: 100%;
+  /* width: 100%; */
   font-size: 1rem;
   margin-bottom: 0;
 }
 
 .scores {
+  /* float: right; */
+  font-size: 20px;
+}
+
+.hint.navbar {
+  text-align: center;
+}
+
+.scores2 {
   float: right;
   font-size: 20px;
+}
+
+@media only screen and (max-width: 375px) {
+  .navbar {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: .5rem 1rem;
+  font-size: 15px;
+  }
+  .scores {
+    font-size: 13px;
+  }
+  .scores2 {
+    font-size: 13px;
+  }
 }
 

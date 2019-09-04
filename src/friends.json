@@ -70,5 +70,11 @@
     "name": "Skittles",
     "image": "https://target.scene7.com/is/image/Target/GUEST_3d2a8073-36e6-4cec-8c8c-872639105820?wid=488&hei=488&fmt=pjpeg",
     "count": 0
+  },
+  {
+    "id": 13,
+    "name": "Chocolate",
+    "image": "https://images.unsplash.com/photo-1566460517900-b58dcc42e5ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60",
+    "count": 0
   }
 ]

@@ -5,12 +5,12 @@ import "./style.css";
 const Navbar = props => {
   return (
     <nav className="navbar navbar-expand-lg">
-      {/* <div className="title">{props.title}</div> */}
-      <div className="scores">
-        Score: {props.score} Highscore: {props.highscore}
-      </div>
+      <div className="scores"> Score: {props.score}</div> 
+      <div className="hint navbar">{props.hint}</div>
+      <div className="scores2"> Highscore: {props.highscore}</div>
     </nav>
   );
-}
+};
+
 
 export default Navbar;

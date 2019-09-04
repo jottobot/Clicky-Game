@@ -13,6 +13,7 @@ class App extends Component {
   // setting state to json array
   state = {
     friends,
+    hint: "Click an image to begin!",
     score: 0,
     highscore: 0,
     // using this as example to show what props can do
@@ -41,12 +42,13 @@ class App extends Component {
       if (friend.id === id) {
         if (friends[index].count === 0) {
           friends[index].count = friends[index].count + 1;
-          this.setState({ score: this.state.score + 1 }, function() {
+          this.setState({ hint:"You guessed correctly!", score: this.state.score + 1 }, function() {
             console.log(this.state.score);
           });
           this.state.friends.sort(() => Math.random() - 0.5);
           return true;
         } else {
+          this.setState({hint:"You guessed incorrectly!",})
           this.endGame();
         }
       }
@@ -59,7 +61,7 @@ class App extends Component {
     // implied - we didn't tell it, but it returned undefined
     return (
       <Fragment>
-          <Navbar title={this.state.title} score={this.state.score} highscore={this.state.highscore} /> 
+          <Navbar title={this.state.title} hint={this.state.hint} score={this.state.score} highscore={this.state.highscore} /> 
           <Hero>
             <h1 className="gametitle">Candy Memory Game</h1>
             <h2>Click a candy ONCE to earn points...</h2>

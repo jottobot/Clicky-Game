@@ -38,7 +38,7 @@
   margin-top: 0;
 }
 
-@media only screen and (max-width: 377px) {
+@media only screen and (max-width: 412px) {
   .hero {
     height: 200px;
     background-size: cover;
